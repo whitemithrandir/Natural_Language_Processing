@@ -1,8 +1,7 @@
 # Natural_Language_Processing
 
 ![image](https://user-images.githubusercontent.com/115104812/215753040-7e0e1cf7-ee55-4530-a8e6-4b9930c0aa41.png)
-
-![image](https://user-images.githubusercontent.com/115104812/215753246-47915e20-c0eb-47e9-9262-7a0d42707317.png)
+![image](https://user-images.githubusercontent.com/115104812/215754526-bba2a2ca-457a-4ef5-9d71-c2809a98f342.png)
  <p>
  Unutma Kapısı(Forget Gate): Hangi bilgilerin unutulacağı veya tutulacağı kararına varan kapıdır. Önceki hücreden gelen bilgi(ht) ve mevcut bilgi(xt) sigmoid aktivasyon fonksiyonuna sokulur ve sonucuna göre karar verilir. 0 olan bilgiler unutulur ve 1 olan bilgiler Cell State ile taşınmaya devam eder.
  <p>
