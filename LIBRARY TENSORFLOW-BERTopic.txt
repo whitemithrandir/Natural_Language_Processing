@@ -1,0 +1,41 @@
+from bertopic import BERTopic
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+
+Bert 0.13
+tensorflow-gpu 2.10.0
+python 3.8
+
+
+
+pip install tensorflow==2.10.0
+pip install tensorflow-gpu==2.10.0
+pip install tensorflow-datasets
+pip install tensorflow-hub
+pip install numpy
+pip install matplotlib
+
+pip install python-dev-tools --user --upgrade
+pip install bertopic==0.13.0
+Needs to install Spacy, Torch, Gensim, USE foe BERTopic
+pip install bertopic[flair, gensim, spacy, use]
+pip install datasetspip install datasets
+
+pip list
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+# Anything above 2.10 is not supported on the GPU on Windows Native
+python -m pip install "tensorflow<2.11"
+# Verify install:
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+https://www.tensorflow.org/install/pip?hl=tr#windows-native
+
+########### ERROR ##################
+
+ERROR: Could not build wheels for hdbscan, which is required to install pyproject.toml-based projects
+conda install -c conda-forge hdbscan
+
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: 'c:\\users\\saban.kara\\anaconda3\\envs\\tens\\lib\\site-packages\\numpy-1.24.2.dist-info\\METADATA'
+conda install google-pasta
+conda install html5lib
+
