@@ -39,3 +39,4 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
 conda install google-pasta
 conda install html5lib
 
+jupyter notebook --ip 192.168.20.106 --port 8888
