@@ -2,11 +2,15 @@ from bertopic import BERTopic
 import tensorflow as tf
 print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
+import cudf
+import torch
+torch.cuda.device_count()
+torch.cuda.is_available()
+
+
 Bert 0.13
 tensorflow-gpu 2.10.0
 python 3.8
-
-
 
 pip install tensorflow==2.10.0
 pip install tensorflow-gpu==2.10.0
@@ -39,4 +43,7 @@ ERROR: Could not install packages due to an OSError: [Errno 2] No such file or d
 conda install google-pasta
 conda install html5lib
 
-jupyter notebook --ip 192.168.20.106 --port 8888
+jupyter notebook --ip 192.168.20.106 --port 8888 --NotebookApp.token=''
+
+cp -r /home/sabankara/berttopictest/one /home/sabankara/berttopictest/Folder
+dosya taşıma
